@@ -1,0 +1,24 @@
+{
+  "name": "myloruquk",
+  "version": "1.0.0",
+  "description": "MySql Long Running Queries Killer",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "MYSQL",
+    "MONITOR"
+  ],
+  "author": "Mathieu Gardere",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.15.0",
+    "mysql": "^2.11.1",
+    "q": "^1.4.1",
+    "yargs": "^5.0.0"
+  }
+}
