@@ -73,4 +73,5 @@ function killLongRunningQueries() {
       .catch(showError);
 }
 
-killLongRunningQueries();
+
+module.exports.killLongRunningQueries = killLongRunningQueries;
